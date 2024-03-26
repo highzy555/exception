@@ -20,7 +20,7 @@ def high():
   t.start()
 
 load_dotenv()
-TOKEN: Final[str] = os.getenv('bot')
+TOKEN = os.getenv('bot')
 
 # STEP 1: BOT SETUP
 intents: Intents = Intents.default()
