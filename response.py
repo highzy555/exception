@@ -134,7 +134,7 @@ def get_response(user_input: str) -> str:
     elif 'เตี้ย' in lowered:
         return "**ขาดความอบอุ่นหรอ ถึงต้องมาบูลลี่คนอื่นอะ**"
     elif 'เปรต' in lowered:
-        return "**เดี๋ยวตายไปมึงก็ได้เป็น**
+        return "**เดี๋ยวตายไปมึงก็ได้เป็น**"
     else:
         return choice(leprosy_word)
         
